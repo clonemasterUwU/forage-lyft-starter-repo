@@ -6,5 +6,5 @@ class Battery(ABC):
         pass
 
     @abstractmethod
-    def needs_services(self) -> bool:
+    def needs_service(self) -> bool:
         pass
